@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bitcount+Prop+Single:wght@100..900&family=Meddon&display=swap');
 
 body {
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Berkshire Swash";
+  padding-left: 1em;
   background-image: url("https://imgs.search.brave.com/zxbNRSxoeGhtrwswMgsXISm0J5UyzAd_E0erLbj3uNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvYmFja2dyb3Vu/ZC1jaHJpc3RtYXMt/d29vZF80NDM5Mi03/Ny5qcGc_c2VtdD1h/aXNfaHlicmlkJnc9/NzQwJnE9ODA");
   background-repeat: repeat-y;
-  background-size: cover;
+  background-size: 100% auto;
+  font-family: "Berkshire Swash";
 }
 
 h1 {
   font-family: "Meddon";
-}
-
-@media (width > 800px) {
-  body {
-    width: 60%;
-  }
 }
 
 section>p {
